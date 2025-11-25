@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Figtree", sans-serif;
+}
+
+.blog-card {
+  background-color: white;
+  max-width: 23.4375rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: solid black 0.1rem;
+  box-shadow: 8px 8px 0px black;
+}
+
+.blog-img {
+  border-radius: 1.5rem;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.tag {
+  display: block;
+  font-weight: 900;
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  padding: 0.25rem 0.75rem;
+  width: fit-content;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.published-date {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: hsl(0, 0%, 7%);
+  font-size: 0.90rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+}
+
+.description{
+    margin-bottom: 0.75rem;
+    color: hsl(0, 0%, 42%);
+    font-size: 1rem;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.author img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.author-name{
+    font-weight: 800;
+    font-size: 0.87rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: hsl(47, 88%, 63%);
+}
