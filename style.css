@@ -18,6 +18,7 @@ body {
 .blog-card {
   background-color: white;
   max-width: 23rem;
+  width: 90%;
   padding: 1.36rem;
   border-radius: 1.2rem;
   border: solid black 0.1rem;
@@ -36,7 +37,7 @@ body {
   font-weight: 850;
   background-color: hsl(47, 88%, 63%);
   color: black;
-  padding: 0.40rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   width: fit-content;
   border-radius: 0.25rem;
   margin-bottom: 0.85rem;
@@ -80,11 +81,23 @@ body {
   font-size: 0.87rem;
 }
 
-a {
+.attribution {
+  font-size: 0.68rem;
+  bottom: 0.62rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.title a {
   text-decoration: none;
   color: black;
 }
-a:hover {
+.title a:hover {
   cursor: pointer;
   text-decoration: none;
   color: hsl(47, 88%, 63%);
